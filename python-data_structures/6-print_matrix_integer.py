@@ -8,3 +8,5 @@ def print_matrix_integer(matrix=[[]]):
         for i in fila:
             print("{:d}".format(i), end=" ")
         print()
+    if not matrix:
+        print()
